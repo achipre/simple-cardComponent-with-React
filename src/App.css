@@ -1,0 +1,63 @@
+.App{
+  display: flex;gap: 1rem;
+}
+.card{
+  width: 350px;
+  box-sizing: border-box;
+  color: #FFF0F5;
+  font-size: 1.2rem;
+  text-align: center;
+  border: 1px solid #fff0f558;
+  padding: 2rem 5rem;
+  border-radius: 1rem;  
+  background-color: #fff0f50d;
+}
+.card-img{
+  border-radius: 100%;
+  width: 5rem;
+}
+.card-name{
+  font-size: 2rem;
+  margin-bottom: .5rem;
+}
+.card-twitterId{
+  margin: 0;
+  color: #fff0f55d;
+  margin-bottom: 2rem;
+}
+.card-button{
+  color: #FFF0F5;
+  background-color: #2F58CD;
+  border: none;
+  border-radius: .8rem;
+  padding: 1rem;
+  width: 100%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color .3s ease-in-out;
+}
+.is-follow{
+  background-color: transparent;
+  border: 1px solid #FFF0F5;
+  transition: .3s ease-in-out display;
+}
+.card-button:hover{
+  background-color: #279EFF;
+  transition: background-color .3s ease-in-out;
+}
+.is-follow:hover{
+  background-color: #95919324;
+  border: 1px solid #ff1212;
+  color: #ff1212;
+}
+.card-stopFollow{
+  display: none;
+}
+.is-follow:hover .card-stopFollow{
+  display: block;
+  transition: .3s ease-in-out display;
+}
+.is-follow:hover .card-follow{
+  display: none;
+  transition: .3s ease-in-out display;
+}

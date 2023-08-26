@@ -1,0 +1,11 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #18122B;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  font-family: system-ui;
+  color: #635985;
+}
