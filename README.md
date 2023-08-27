@@ -19,4 +19,4 @@ Deploy: [Netlify](https://www.netlify.com/)
 
 ## Page:
 
-[https://simplecard-react.netlify.app/](https://simplecard-react.netlify.app/)
+[https://simplecard-react.netlify.app/](https://simplecard-reactjs.netlify.app/)
