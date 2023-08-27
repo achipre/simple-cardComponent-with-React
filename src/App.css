@@ -1,16 +1,32 @@
 .App{
-  display: flex;gap: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+h1{
+  margin-top: 36px;
 }
 .card{
-  width: 350px;
-  box-sizing: border-box;
-  color: #FFF0F5;
-  font-size: 1.2rem;
-  text-align: center;
-  border: 1px solid #fff0f558;
-  padding: 2rem 5rem;
-  border-radius: 1rem;  
   background-color: #fff0f50d;
+  box-sizing: border-box;
+  border: 1px solid #fff0f558;
+  border-radius: 1rem;  
+  color: #b4abae;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  justify-content: center;
+  margin: 1rem;
+  min-width: 200px;
+  padding: 1rem;
+  text-align: center;
+  width: 350px;
+  min-width: 220px;
+}
+.card-header{
+  padding-top: 1rem;
+
 }
 .card-img{
   border-radius: 100%;
@@ -26,19 +42,21 @@
   margin-bottom: 2rem;
 }
 .card-button{
-  color: #FFF0F5;
+  max-width: 280px;
+  color: #d0cfcf;
   background-color: #2F58CD;
   border: none;
   border-radius: .8rem;
   padding: 1rem;
-  width: 100%;
   font-size: 1.2rem;
   cursor: pointer;
   transition: background-color .3s ease-in-out;
+  width: 180px;
 }
 .is-follow{
   background-color: transparent;
   border: 1px solid #FFF0F5;
+  width: 180px;
   transition: .3s ease-in-out display;
 }
 .card-button:hover{
@@ -60,4 +78,14 @@
 .is-follow:hover .card-follow{
   display: none;
   transition: .3s ease-in-out display;
+}
+@media (min-width: 763px) {
+  #root > h1{
+    font-size: 2.8rem;
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+  }
 }

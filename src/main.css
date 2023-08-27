@@ -3,9 +3,17 @@ body{
   padding: 0;
   box-sizing: border-box;
   background-color: #18122B;
-  display: grid;
-  place-content: center;
-  height: 100vh;
   font-family: system-ui;
   color: #635985;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@media (max-width: 763px) {
+  body{
+    display: block;
+    margin-top: 1rem;
+    height: auto;
+  }  
 }

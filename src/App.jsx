@@ -8,28 +8,31 @@ const users = [
     isFollowing: true
   },
   {
-    name: 'Freddy Vega',
-    twitterId: 'freddier',
+    name: 'Sophie Alpert',
+    twitterId: 'sophiebits',
     isFollowing: false
   },
   {
-    name: 'El Vago',
-    twitterId: 'alexchipre',
+    name: 'Andrew Clark',
+    twitterId: 'acdlite',
     isFollowing: true
   },
   {
-    name: 'Pato Donal',
-    twitterId: 'patodonal',
+    name: 'Dan Abramov',
+    twitterId: 'dan_abramov',
     isFollowing: false
   }
 ]
 export const App = () => {
   return (
-    <section className="App">
-      {users.map(({twitterId, isFollowing, name}) => (
-      <Card key={twitterId} twitterId={twitterId} inicialIsFollowing={isFollowing}>
-        {name}
-      </Card>))}
-    </section>
+    <>
+      <h1 style={{textAlign: 'center'}}>Follow Card</h1>
+      <section className="App">
+        {users.map(({twitterId, isFollowing, name}) => (
+        <Card key={twitterId} twitterId={twitterId} inicialIsFollowing={isFollowing}>
+          {name}
+        </Card>))}
+      </section>
+    </>
   );
 };

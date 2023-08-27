@@ -1,8 +1,22 @@
-# React + Vite
+<div align='center'>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Simple Card (Reactjs)
 
-Currently, two official plugins are available:
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Cover Project Simple Card](src/assets/coversimplecard-react.jpg)
+
+## Description
+
+This is a simple page build with react using [useStated](https://react.dev/reference/react/useState)
+
+## Tecnologies
+Library: [React](https://react.dev/)
+
+Bundle: [Vite](https://vitejs.dev/)
+
+Deploy: [Netlify](https://www.netlify.com/)
+
+## Page:
+
+[https://simplecard-react.netlify.app/](https://simplecard-react.netlify.app/)
